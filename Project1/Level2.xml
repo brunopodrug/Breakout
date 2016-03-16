@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<Level 
+	 RowCount="30" 
+	 ColumnCount="20" 
+	 RowSpacing="3" 
+	 ColumnSpacing="3" 
+	 BackgroundTexture="Textures/Boards/pozadina.jpg"> 
+
+	 <BrickTypes> 
+		<!-- Soft Brick --> 
+		 <BrickType 
+			 Id="S" 
+			 Texture="Textures/Bricks/Soft.bmp" 
+			 HitPoints="1" 
+			 HitSound="Sounds/HitSoundHard.ogg" 
+			BreakSound="Sounds/BreakSoundHard.ogg" 
+			 BreakScore="50" /> 
+		<!-- Medium Brick --> 
+		 <BrickType 
+			 Id="M" 
+			 Texture="Textures/Bricks/Medium.bmp" 
+			 HitPoints="2" 
+			 HitSound="Sounds/HitSoundMedium.ogg" 
+			BreakSound="Sounds/BreakSoundMedium.ogg" 
+			 BreakScore="100" /> 
+		<!-- Hard Brick --> 
+		 <BrickType 
+			 Id="H" 
+			 Texture="Textures/Bricks/Hard.bmp" 
+			 HitPoints="3" 
+			 HitSound="Sounds/HitSoundSoft.ogg" 
+			BreakSound="Sounds/BreakSoundSoft.ogg" 
+			 BreakScore="150" /> 
+		<!-- Impenetrable Brick --> 
+		 <BrickType 
+			 Id="I" 
+			 Texture="Textures/Bricks/Impenetrable.bmp" 
+			 HitPoints="100000" 
+			 HitSound="Sounds/HitSoundMetal.ogg" 
+			BreakSound="Sounds/BreakSoundHard.ogg" 
+			 BreakScore="150"/> 
+	</BrickTypes> 
+	 <Bricks>
+		 S M H S M H S M H I I S M H S M H S M H
+		 H S M H S M H S M I I H S M H S M H S M
+		 M H S M H S M H S I I M H S M H S M H S 
+		 S M H S M H S M H I I S M H S M H S M H
+		 H S M H S M H S M I I H S M H S M H S M
+		 M H S M H S M H S I I M H S M H S M H S
+		 S M H S M H S M H I I S M H S M H S M H
+		 H S M H S M H S M I I H S M H S M H S M
+		 M H S M H S M H S I I M H S M H S M H S B
+	 </Bricks> 
+</Level> 

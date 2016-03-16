@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<level>
+<levelatribute RowCount="1" type="graphic" filename="smoke.png" scenescope="0"></levelatribute>
+<levelatribute UID="2" type="graphic" filename="face_colorkey.png" scenescope="0"></levelatribute>
+<levelatribute UID="3" type="graphic" filename="Tiles.png" scenescope="0"></levelatribute>
+<levelatribute UID="4" type="audio" filename="myaudio.mp3" scenescope="0" audio_type="stream"></levelatribute>
+<levelatribute UID="5" type="audio" filename="music.ogg" scenescope="0" audio_type="sample"></levelatribute>
+</level>

@@ -1,0 +1,20 @@
+﻿  paddle.cpp
+  ball.cpp
+ball.cpp(8): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  bricks.cpp
+  level.cpp
+  Source.cpp
+  tinyxml2.cpp
+bricks.obj : error LNK2001: unresolved external symbol __imp__al_init_image_addon
+bricks.obj : error LNK2001: unresolved external symbol __imp__al_init_acodec_addon
+bricks.obj : error LNK2001: unresolved external symbol __imp__al_install_audio
+level.obj : error LNK2001: unresolved external symbol __imp__al_load_sample
+Source.obj : error LNK2001: unresolved external symbol __imp__al_draw_filled_circle
+Source.obj : error LNK2001: unresolved external symbol __imp__al_play_sample
+Source.obj : error LNK2001: unresolved external symbol __imp__al_draw_text
+Source.obj : error LNK2001: unresolved external symbol __imp__al_reserve_samples
+Source.obj : error LNK2001: unresolved external symbol __imp__al_init_primitives_addon
+Source.obj : error LNK2001: unresolved external symbol __imp__al_create_builtin_font
+Source.obj : error LNK2001: unresolved external symbol __imp__al_draw_filled_rectangle
+Source.obj : error LNK2001: unresolved external symbol __imp__al_init_font_addon
+C:\Users\Public\Zavrsen - debug\Project1_old\Release\Project1.exe : fatal error LNK1120: 12 unresolved externals
