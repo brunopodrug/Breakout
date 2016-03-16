@@ -1,0 +1,519 @@
+stdio    D         file_stdio.c:105  file_stdio_fopen                 [   0.00000] opening C:\Users\Public\Project1_old\Debug\allegro5.cfg r
+system   I             system.c:242  al_install_system                [   0.00000] Allegro version: 5.1.13 (WIP)
+audio-dsound D           dsound.cpp:258  _dsound_open                     [   0.00019] Loading DirectSound module
+system   D            wsystem.c:674  maybe_parent_dir                 [   0.00026] Also searching C:\Users\Public\Project1_old\
+system   D            wsystem.c:724  _al_win_safe_load_library        [   0.00052] PathFindOnPath found: C:\Windows\system32\dsound.dll
+system   D            wsystem.c:635  load_library_at_path             [   0.00055] Calling LoadLibrary C:\Windows\system32\dsound.dll
+system   I            wsystem.c:638  load_library_at_path             [   0.00165] Loaded C:\Windows\system32\dsound.dll
+audio-dsound I           dsound.cpp:275  _dsound_open                     [   0.00170] Starting DirectSound...
+audio-dsound D           dsound.cpp:285  _dsound_open                     [   0.02433] DirectSoundCreate8 succeeded
+audio    I              audio.c:347  do_install_audio                 [   0.02570] Using DirectSound driver
+audio-dsound D           dsound.cpp:320  _dsound_allocate_voice           [   0.02583] Allocating voice
+audio-dsound D           dsound.cpp:379  _dsound_allocate_voice           [   0.02585] Allocated voice
+dtor     D               dtor.c:184  _al_register_destructor          [   0.02587] added dtor for object 007B08C0, func 6E211181
+dtor     D               dtor.c:184  _al_register_destructor          [   0.02590] added dtor for object 007E0390, func 6E211280
+audio-dsound D           dsound.cpp:476  _dsound_start_voice              [   0.02592] Starting voice
+audio-dsound D           dsound.cpp:504  _dsound_start_voice              [   0.02594] CreateSoundBuffer
+audio-dsound D           dsound.cpp:513  _dsound_start_voice              [   0.02689] CreateSoundBuffer succeeded
+audio-dsound D           dsound.cpp:519  _dsound_start_voice              [   0.02693] Starting _dsound_update thread
+audio-dsound I           dsound.cpp:529  _dsound_start_voice              [   0.02702] Voice started
+dtor     D               dtor.c:184  _al_register_destructor          [   0.02706] added dtor for object 007E3010, func 6E21113B
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.02709] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.02712] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.02714] 
+system   D            wsystem.c:674  maybe_parent_dir                 [   0.02727] Also searching C:\Users\Public\Project1_old\
+system   D            wsystem.c:724  _al_win_safe_load_library        [   0.02754] PathFindOnPath found: C:\Windows\system32\d3d9.dll
+system   D            wsystem.c:635  load_library_at_path             [   0.02757] Calling LoadLibrary C:\Windows\system32\d3d9.dll
+system   I            wsystem.c:638  load_library_at_path             [   0.02948] Loaded C:\Windows\system32\d3d9.dll
+d3d      I         d3d_disp.cpp:674  d3d_init_display                 [   0.03178] Render-to-texture: 1
+d3d      I         d3d_disp.cpp:1769 d3d_create_display_locked        [   0.03275] faux_fullscreen=0
+d3d      D         d3d_disp.cpp:1770 d3d_create_display_locked        [   0.03278] al_display=007F7A08
+d3d      D         d3d_disp.cpp:1771 d3d_create_display_locked        [   0.03280] al_display->vt=007E0588
+d3d      I d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.03326] found 64 format combinations
+display  D   display_settings.c:212  debug_display_settings           [   0.03329] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03332] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03333] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03341] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03343] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03345] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03346] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03348] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03350] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03352] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03353] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03355] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03357] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03359] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03360] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03362] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03363] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03365] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03367] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03369] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03370] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03372] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03373] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03375] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03377] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03379] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03380] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03383] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03385] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03387] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03388] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03390] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.03392] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03393] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03395] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03397] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03399] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03401] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03403] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03405] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03406] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03408] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03410] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03411] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03413] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03415] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03416] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03418] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03420] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03421] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03423] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03425] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03426] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03428] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03430] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03432] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03433] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03435] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03437] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03439] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03440] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03442] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03443] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03445] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03447] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03449] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03451] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03453] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03454] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03456] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03458] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03460] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03461] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03463] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03464] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03466] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03468] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03470] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03471] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03473] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03474] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03476] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03477] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03479] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03481] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03483] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03484] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03487] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03488] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03490] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03491] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03493] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03495] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03497] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03498] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.03500] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.03501] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03503] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03512] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03514] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03516] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03517] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03519] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03521] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03522] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03524] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03526] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03527] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03529] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03531] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03532] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03534] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03536] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03538] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03539] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03541] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03542] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03544] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03546] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03548] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03549] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03551] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03553] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03554] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03556] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03558] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.03559] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.03561] Single Buffer requirement not met.
+d3d      D         d3d_disp.cpp:1669 d3d_create_display_internals     [   0.03565] Trying format 0.
+d3d      I         d3d_disp.cpp:1344 d3d_display_thread_proc          [   0.03591] Chose a display format: 23
+d3d      I         d3d_disp.cpp:1413 d3d_display_thread_proc          [   0.03597] Normal window.
+d3d      I         d3d_disp.cpp:781  d3d_create_device                [   0.05381] Using no depth stencil buffer
+d3d      D         d3d_disp.cpp:839  d3d_create_device                [   0.07777] BeginScene succeeded in create_device
+d3d      D         d3d_disp.cpp:847  d3d_create_device                [   0.07781] Success
+d3d      D         d3d_disp.cpp:1692 d3d_create_display_internals     [   0.07785] Resumed after wait.
+d3d      I         d3d_disp.cpp:1725 d3d_create_display_internals     [   0.07790] Format 0 succeeded.
+d3d      D         d3d_disp.cpp:1756 d3d_create_display_internals     [   0.07796] Returning d3d_display: 007F7A08
+d3d      D         d3d_disp.cpp:1781 d3d_create_display_locked        [   0.07799] al_display=007F7A08
+d3d      D         d3d_disp.cpp:1782 d3d_create_display_locked        [   0.07801] al_display->vt=007E0588
+system   D            wsystem.c:674  maybe_parent_dir                 [   0.07819] Also searching C:\Users\Public\Project1_old\
+system   D            wsystem.c:724  _al_win_safe_load_library        [   0.07854] PathFindOnPath found: C:\Windows\system32\d3dx9_43.dll
+system   D            wsystem.c:635  load_library_at_path             [   0.07857] Calling LoadLibrary C:\Windows\system32\d3dx9_43.dll
+system   I            wsystem.c:638  load_library_at_path             [   0.07991] Loaded C:\Windows\system32\d3dx9_43.dll
+d3dx9    I        d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0.08007] Module "d3dx9_43.dll" loaded.
+dtor     D               dtor.c:184  _al_register_destructor          [   0.08065] added dtor for object 00813048, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.08168] added dtor for object 0082CCC8, func 658017D0
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08708] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08711] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08713] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08714] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08715] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08717] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08718] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08720] Fake format
+d3d      D         d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.08721] Fake format
+d3d      D         d3d_disp.cpp:1196 real_choose_bitmap_format        [   0.08722] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1203 real_choose_bitmap_format        [   0.08724] Adapter format is 23
+d3d      D         d3d_disp.cpp:1206 real_choose_bitmap_format        [   0.08726] Found a format
+d3d      I         d3d_disp.cpp:2380 d3d_create_bitmap                [   0.08727] Chose bitmap format 9
+dtor     D               dtor.c:184  _al_register_destructor          [   0.08758] added dtor for object 00846AF8, func 658017D0
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.09819] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.09824] _al_d3d_sync_bitmap (video) ref count == 1
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10079] added dtor for object 06319B80, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10084] added dtor for object 06319CE8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10086] added dtor for object 06319EC0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10089] added dtor for object 0631A028, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10091] added dtor for object 0631A190, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10094] added dtor for object 0631A2F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10096] added dtor for object 0631A510, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10098] added dtor for object 0631A678, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10100] added dtor for object 0631A7E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10102] added dtor for object 0631A948, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10104] added dtor for object 0631AAB0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10105] added dtor for object 0631AC18, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10107] added dtor for object 0631AD80, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10110] added dtor for object 00860778, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10112] added dtor for object 00860A28, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10114] added dtor for object 00860B90, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10116] added dtor for object 00860CF8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10118] added dtor for object 00860E60, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10120] added dtor for object 00860FC8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10122] added dtor for object 00861130, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10124] added dtor for object 00861298, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10126] added dtor for object 00861400, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10128] added dtor for object 00861568, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10131] added dtor for object 008616D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10134] added dtor for object 00861838, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10136] added dtor for object 008619A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10138] added dtor for object 00861B08, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10140] added dtor for object 00861C70, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10142] added dtor for object 00861DD8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10144] added dtor for object 00861F40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10146] added dtor for object 008620A8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10148] added dtor for object 00862210, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10151] added dtor for object 00862378, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10153] added dtor for object 008624E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10155] added dtor for object 00862648, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10158] added dtor for object 008627B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10161] added dtor for object 00862C58, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10163] added dtor for object 00862DC0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10165] added dtor for object 00862F28, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10166] added dtor for object 00863090, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10168] added dtor for object 008631F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10170] added dtor for object 00863360, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10172] added dtor for object 008634C8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10174] added dtor for object 00863630, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10176] added dtor for object 00863798, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10178] added dtor for object 00863900, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10180] added dtor for object 00863A68, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10182] added dtor for object 00863BD0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10184] added dtor for object 00863D38, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10186] added dtor for object 00863EA0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10188] added dtor for object 00864008, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10190] added dtor for object 00864170, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10192] added dtor for object 008642D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10194] added dtor for object 00864440, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10197] added dtor for object 008645A8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10200] added dtor for object 00864710, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10203] added dtor for object 00864878, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10206] added dtor for object 008649E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10209] added dtor for object 00864C58, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10211] added dtor for object 00864DC0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10213] added dtor for object 00864F28, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10215] added dtor for object 00865090, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10217] added dtor for object 008651F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10219] added dtor for object 00865360, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10222] added dtor for object 008654C8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10224] added dtor for object 00865630, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10233] added dtor for object 00865798, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10235] added dtor for object 00865900, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10237] added dtor for object 00865A68, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10239] added dtor for object 00865BD0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10241] added dtor for object 00865D38, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10243] added dtor for object 00865EA0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10245] added dtor for object 00866008, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10247] added dtor for object 00866170, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10249] added dtor for object 008662D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10251] added dtor for object 00866440, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10253] added dtor for object 008665A8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10255] added dtor for object 00866710, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10257] added dtor for object 00866878, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10259] added dtor for object 008669E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10262] added dtor for object 00867088, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10264] added dtor for object 008671F0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10266] added dtor for object 00867358, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10268] added dtor for object 008674C0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10270] added dtor for object 00867628, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10272] added dtor for object 00867790, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10274] added dtor for object 008678F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10276] added dtor for object 00867A60, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10278] added dtor for object 00867BC8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10280] added dtor for object 00867D30, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10282] added dtor for object 00867E98, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10284] added dtor for object 00868000, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10286] added dtor for object 00868168, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10288] added dtor for object 008682D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10290] added dtor for object 00868438, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10292] added dtor for object 008685A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10296] added dtor for object 00868708, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10298] added dtor for object 00868870, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10300] added dtor for object 008689D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10302] added dtor for object 00868B40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10304] added dtor for object 00868CA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10306] added dtor for object 00868E10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10309] added dtor for object 00869088, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10311] added dtor for object 008691F0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10313] added dtor for object 00869358, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10315] added dtor for object 008694C0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10317] added dtor for object 00869628, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10319] added dtor for object 00869790, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10321] added dtor for object 008698F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10323] added dtor for object 00869A60, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10325] added dtor for object 00869BC8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10327] added dtor for object 00869D30, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10329] added dtor for object 00869E98, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10332] added dtor for object 0086A000, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10334] added dtor for object 0086A168, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10336] added dtor for object 0086A2D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10338] added dtor for object 0086A438, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10340] added dtor for object 0086A5A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10342] added dtor for object 0086A708, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10344] added dtor for object 0086A870, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10346] added dtor for object 0086A9D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10348] added dtor for object 0086AB40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10350] added dtor for object 0086ACA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10352] added dtor for object 0086AE10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10355] added dtor for object 0086B088, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10357] added dtor for object 0086B1F0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10359] added dtor for object 0086B358, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10361] added dtor for object 0086B4C0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10364] added dtor for object 0086B628, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10367] added dtor for object 0086B790, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10369] added dtor for object 0086B8F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10371] added dtor for object 0086BA60, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10373] added dtor for object 0086BBC8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10375] added dtor for object 0086BD30, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10377] added dtor for object 0086BE98, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10379] added dtor for object 0086C000, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10381] added dtor for object 0086C168, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10383] added dtor for object 0086C2D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10385] added dtor for object 0086C438, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10387] added dtor for object 0086C5A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10390] added dtor for object 0086C708, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10392] added dtor for object 0086C870, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10394] added dtor for object 0086C9D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10396] added dtor for object 0086CB40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10398] added dtor for object 0086CCA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10400] added dtor for object 0086CE10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10402] added dtor for object 0086D8B8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10404] added dtor for object 0086DA20, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10406] added dtor for object 0086DB88, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10408] added dtor for object 0086DCF0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10410] added dtor for object 0086DE58, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10412] added dtor for object 0086DFC0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10415] added dtor for object 0086E128, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10417] added dtor for object 0086E290, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10419] added dtor for object 0086E3F8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10421] added dtor for object 0086E560, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10423] added dtor for object 0086E6C8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10425] added dtor for object 0086E830, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10427] added dtor for object 0086E998, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10429] added dtor for object 0086EB00, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10433] added dtor for object 0086EC68, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10435] added dtor for object 0086EDD0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10437] added dtor for object 0086EF38, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10439] added dtor for object 0086F0A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10441] added dtor for object 0086F208, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10443] added dtor for object 0086F370, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10445] added dtor for object 0086F4D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10447] added dtor for object 0086F640, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10450] added dtor for object 0631AF00, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10453] added dtor for object 0631B068, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10455] added dtor for object 0631B1D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10457] added dtor for object 0631B338, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10459] added dtor for object 0631B4A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10461] added dtor for object 0631B608, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10463] added dtor for object 0631B770, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10465] added dtor for object 0631B8D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10467] added dtor for object 0631BA40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10469] added dtor for object 0631BBA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10472] added dtor for object 0631BD10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10474] added dtor for object 0631BE78, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10476] added dtor for object 0631BFE0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10478] added dtor for object 0631C148, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10480] added dtor for object 0631C2B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10482] added dtor for object 0631C418, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10484] added dtor for object 0631C580, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10487] added dtor for object 0631C6E8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10489] added dtor for object 0631C850, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10491] added dtor for object 0631C9B8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10493] added dtor for object 0631CB20, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10495] added dtor for object 0631CC88, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10498] added dtor for object 0631CF00, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10501] added dtor for object 0631D068, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10504] added dtor for object 0631D1D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10506] added dtor for object 0631D338, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10508] added dtor for object 0631D4A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10510] added dtor for object 0631D608, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10512] added dtor for object 0631D770, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10514] added dtor for object 0631D8D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10516] added dtor for object 0631DA40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10518] added dtor for object 0631DBA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10521] added dtor for object 0631DD10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10523] added dtor for object 0631DE78, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10525] added dtor for object 0631DFE0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10527] added dtor for object 0631E148, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10529] added dtor for object 0631E2B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10531] added dtor for object 0631E418, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10533] added dtor for object 0631E580, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10535] added dtor for object 0631E6E8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10537] added dtor for object 0631E850, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10539] added dtor for object 0631E9B8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10542] added dtor for object 0631EB20, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10544] added dtor for object 0631EC88, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10546] added dtor for object 0631EF00, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10549] added dtor for object 0631F068, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10551] added dtor for object 0631F1D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10553] added dtor for object 0631F338, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10555] added dtor for object 0631F4A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10557] added dtor for object 0631F608, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10559] added dtor for object 0631F770, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10561] added dtor for object 0631F8D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10563] added dtor for object 0631FA40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10565] added dtor for object 0631FBA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10567] added dtor for object 0631FD10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10570] added dtor for object 0631FE78, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10573] added dtor for object 0631FFE0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10575] added dtor for object 06320148, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10577] added dtor for object 063202B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10579] added dtor for object 06320418, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10581] added dtor for object 06320580, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10583] added dtor for object 063206E8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10585] added dtor for object 06320850, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10587] added dtor for object 063209B8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10590] added dtor for object 06320B20, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10592] added dtor for object 06320C88, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10594] added dtor for object 06320F00, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10597] added dtor for object 06321068, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10599] added dtor for object 063211D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10601] added dtor for object 06321338, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10603] added dtor for object 063214A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10605] added dtor for object 06321608, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10607] added dtor for object 06321770, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10609] added dtor for object 063218D8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10611] added dtor for object 06321A40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10613] added dtor for object 06321BA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10615] added dtor for object 06321D10, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10617] added dtor for object 06321E78, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10620] added dtor for object 06321FE0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10622] added dtor for object 06322148, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10624] added dtor for object 063222B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10626] added dtor for object 06322418, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10628] added dtor for object 06322580, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10630] added dtor for object 063226E8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10632] added dtor for object 06322850, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10636] added dtor for object 063229B8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10638] added dtor for object 06322B20, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10640] added dtor for object 06322C88, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10644] added dtor for object 06323F30, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10646] added dtor for object 06324098, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10648] added dtor for object 06324200, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10650] added dtor for object 06324368, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10652] added dtor for object 063244D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10655] added dtor for object 06324638, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10657] added dtor for object 063247A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10659] added dtor for object 06324908, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10661] added dtor for object 06324A70, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10663] added dtor for object 06324BD8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10665] added dtor for object 06324D40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10667] added dtor for object 06324EA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10670] added dtor for object 06325010, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10672] added dtor for object 06325178, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10674] added dtor for object 063252E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10676] added dtor for object 06325448, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10678] added dtor for object 063255B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10680] added dtor for object 06325718, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10682] added dtor for object 06325880, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10684] added dtor for object 063259E8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10687] added dtor for object 06325B50, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10689] added dtor for object 06325CB8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10691] added dtor for object 06325F30, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10694] added dtor for object 06326098, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10696] added dtor for object 06326200, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10698] added dtor for object 06326368, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10700] added dtor for object 063264D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10702] added dtor for object 06326638, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10705] added dtor for object 063267A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10707] added dtor for object 06326908, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10709] added dtor for object 06326A70, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10711] added dtor for object 06326BD8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10715] added dtor for object 06326D40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10717] added dtor for object 06326EA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10719] added dtor for object 06327010, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10721] added dtor for object 06327178, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10723] added dtor for object 063272E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10725] added dtor for object 06327448, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10728] added dtor for object 063275B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10730] added dtor for object 06327718, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10733] added dtor for object 06327880, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10736] added dtor for object 063279E8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10738] added dtor for object 06327B50, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10740] added dtor for object 06327CB8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10743] added dtor for object 06327F30, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10745] added dtor for object 06328098, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10748] added dtor for object 06328200, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10750] added dtor for object 06328368, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10752] added dtor for object 063284D0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10754] added dtor for object 06328638, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10756] added dtor for object 063287A0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10758] added dtor for object 06328908, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10760] added dtor for object 06328A70, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10763] added dtor for object 06328BD8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10765] added dtor for object 06328D40, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10767] added dtor for object 06328EA8, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10769] added dtor for object 06329010, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10771] added dtor for object 06329178, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10774] added dtor for object 063292E0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10776] added dtor for object 06329448, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10778] added dtor for object 063295B0, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10780] added dtor for object 06329718, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10787] added dtor for object 06329880, func 658017D0
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10789] added dtor for object 063299E8, func 658017D0
+dtor     D               dtor.c:214  _al_unregister_destructor        [   0.10793] removed dtor for object 0082CCC8
+dtor     D               dtor.c:184  _al_register_destructor          [   0.10801] added dtor for object 007D3650, func 6E2510AA
+dtor     D               dtor.c:214  _al_unregister_destructor        [   0.10803] removed dtor for object 00813048
+stdio    D         file_stdio.c:105  file_stdio_fopen                 [   0.10807] opening Textures/Bricks/Medium.bmp rb
+bitmap   W          bitmap_io.c:211  al_load_bitmap_flags             [   0.10816] Failed loading Textures/Bricks/Medium.bmp with .bmp handler.
